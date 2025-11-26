@@ -1,8 +1,0 @@
-# System files
-.DS_Store
-.idea/
-.gitignore
-# Ignore everything in letterboxd_eliah
-letterboxd_eliah/*
-
-!letterboxd_eliah/analysis.ipynb
