@@ -1,0 +1,15 @@
+# System files
+.DS_Store
+.idea/
+
+# Ignore everything in letterboxd_eliah
+letterboxd_eliah/*
+
+# But not these files/folders
+!letterboxd_eliah/analysis.ipynb
+!letterboxd_eliah/build_network/
+!letterboxd_eliah/build_network/**
+
+# But ignore these specific files
+letterboxd_eliah/build_network/__init__.py
+letterboxd_eliah/CLAUDE.md
