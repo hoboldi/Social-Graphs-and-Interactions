@@ -6,8 +6,8 @@ Usage:
 """
 
 import logging
-from .letterboxd_parser import LetterboxdDataParser
-from .build_network import build_letterboxd_network, save_network
+from letterboxd_parser import LetterboxdDataParser
+from build_network import build_letterboxd_network, save_network
 
 logging.basicConfig(
     level=logging.INFO,
@@ -21,7 +21,7 @@ def main():
     try:
         # 1. Initialize Parser
         logger.info("Initializing parser...")
-        parser = LetterboxdDataParser("../exports")
+        parser = LetterboxdDataParser("../../Data/JSON/State_1")
 
         # 2. Build Network
         logger.info("Building network...")
@@ -37,7 +37,7 @@ def main():
         print("=" * 60 + "\n")
 
         # 4. Save as Pickle
-        save_network(graph, "../letterboxd_network.pickle")
+        save_network(graph, "../../Data/Pickle/letterboxd_network.pickle")
         print("✓ Network saved to letterboxd_network.pickle")
 
         # 5. Print usage example

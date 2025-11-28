@@ -9,7 +9,7 @@ import pickle
 import logging
 from pathlib import Path
 from typing import Dict
-from .letterboxd_parser import LetterboxdDataParser
+from letterboxd_parser import LetterboxdDataParser
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
