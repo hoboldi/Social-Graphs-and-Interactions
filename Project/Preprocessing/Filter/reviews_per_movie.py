@@ -77,7 +77,7 @@ def main() -> None:
     parser.add_argument(
         "--top",
         type=float,
-        default=10,
+        default=100,
         help="Keep only the top X%% most-reviewed movies."
     )
 
