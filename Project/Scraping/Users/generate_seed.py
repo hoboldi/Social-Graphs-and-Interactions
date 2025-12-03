@@ -1,21 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-popular_members_to_seed.py
-
-Scrape top-N Letterboxd member usernames from the
-"Members → Popular → All Time" pages and export to CSV.
-
-Defaults: N=50, out='seed.csv'.
-
-Usage:
-  python popular_members_to_seed.py --max 50 --out seed.csv
-Options:
-  --period all-time|week|month|year   (default: all-time)
-  --max N                             number of usernames to collect
-  --out PATH                          output CSV path
-"""
-
 import re
 import csv
 import time
