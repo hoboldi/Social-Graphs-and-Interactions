@@ -1,0 +1,8 @@
+State_1 filter=lfs diff=lfs merge=lfs -text
+Hedonometer.csv filter=lfs diff=lfs merge=lfs -text
+letterboxd_network.pickle filter=lfs diff=lfs merge=lfs -text
+movie_sentiment_and_rating.csv filter=lfs diff=lfs merge=lfs -text
+movies.csv filter=lfs diff=lfs merge=lfs -text
+reviews.csv filter=lfs diff=lfs merge=lfs -text
+reviews_with_sentiment.csv filter=lfs diff=lfs merge=lfs -text
+user_community_mapping.csv filter=lfs diff=lfs merge=lfs -text
